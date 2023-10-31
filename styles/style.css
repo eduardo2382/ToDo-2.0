@@ -37,14 +37,27 @@ main label{
     padding: 5px 0px 5px 10px;
     margin-bottom: 10px;
     border-radius: 2px;
+    font-size: 12pt;
+}
+
+#inputTarefa:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 10px #000000f3;
 }
 
 #btnAdd{
     width: 100%;
+    height: 29px;
     color: white;
     background-color: #f64348;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15pt;
-    border
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#btnAdd:hover{
+    background-color: #fc656a;
 }
